@@ -88,6 +88,6 @@ math lib when linking
     ->recommended: array of structs, compute the results for each pairing, then sort array using qsort()
 
 <<DEBUGGING>>
--use the DEBUG macro trick (idk what this is lol)
--if malloc() or pthread_mutex_lock() (hello what is that) fails, write error checks or define a macro to write
+-use the DEBUG macro trick
+-if malloc() or pthread_mutex_lock() fails, write error checks or define a macro to write
 them for u
